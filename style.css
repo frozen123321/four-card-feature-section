@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    background-color: #FAFAFA;
+    /* height: 100vh; */
+    text-align: center; 
+}
+.box-one{
+    width: 80%;
+    height: 161px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.box-one__h1{
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: center;
+    color: #4D4F62;
+}
+
+span{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: center;
+    color: #4D4F62;
+    margin-top: 5px;
+}
+
+.box-one__p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1041666641831398px;
+    text-align: center;
+    color: #4d4f626c;
+    margin-top: 10px;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    display: grid;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 65px;
+    padding-bottom: 75px;
+}
+
+/* BOX-TWO */
+
+.box-two{
+    width: 100%;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-radius: 10px;
+    border-top: 3.55px solid #44D3D2;
+    position: relative;
+}
+
+.box-two-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box-two__h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+.box-two__p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4d4f6286;
+}
+
+img{
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+/* BOX-THREE */
+
+.box-three{
+    width: 100%;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-radius: 10px;
+    border-top: 3.55px solid #EA5454;
+    position: relative;
+}
+
+.box-three__h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+.box-three__p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4d4f6286;
+}
+
+/* BOX-FOUR */
+
+.box-four{
+    width: 100%;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-radius: 10px;
+    border-top: 3.55px solid #FCAE4A;
+    position: relative;
+}
+
+.box-four__h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+.box-four__p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4d4f6286;
+}
+
+
+/* BOX-FIVE */
+
+.box-five{
+    width: 100%;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-radius: 10px;
+    border-top: 3.55px solid #549EF2;
+    position: relative;
+}
+
+.box-five__h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D4F62;
+}
+
+.box-five__p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    text-align: left;
+    color: #4d4f6286;
+}
+
+.grid-container{
+    display: grid;
+    gap: 15px;
+}
+
+
+@media screen and (min-width:1440px){
+    .box-one{
+        width: 540px;
+        height: 168px;
+    }
+
+    .box-one__h1{
+        font-size:36px;
+        line-height: 54px;
+    }
+
+    span{
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .container{
+        width: 1110px;
+        height: auto;
+        display: flex;
+        gap: 27px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-two{
+        width: 350px;
+        height: 250px;
+        box-shadow: 0px 15px 30px -11px #83A6D280;
+        border-radius: 10px;
+        border-top: 3.55px solid #44D3D2;
+        position: relative;
+    }
+
+    .box-three{
+        width: 350px;
+        height: 250px;
+    }
+
+    .box-four{
+        width: 350px;
+        height: 250px;
+    }
+    .box-five{
+        width: 350px;
+        height: 250px;
+    }
+
+    .grid-container{
+        display: grid;
+        gap: 35px;
+    }
+
+
+}
